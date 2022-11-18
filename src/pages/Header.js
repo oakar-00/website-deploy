@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 
 function Header() {
+	const base_url = "/website-deploy";
 	return (
 		<div className="font-mono">
 			<li>
-				<Link to="/">
+				<Link to={base_url + "/"}>
 					<h1 className="text-white p-2 tracking-widest font-semibold text-center text-5xl duration-300 hover:tracking-[.7em] shadow-lg">
 						OAKAR
 					</h1>
@@ -13,13 +14,13 @@ function Header() {
 			<div className="flex justify-center items-center">
 				<div className="font-sans flex md:flex-row flex-col justify-evenly items-center mb-4 mt-4 w-3/4">
 					<Link
-						to="/about"
+						to={base_url + "/about"}
 						className="p-0 font-semibold md:w-1/3 text-center duration-300 hover:scale-110"
 					>
 						About me
 					</Link>
 					<Link
-						to="/bass"
+						to={base_url + "/bass"}
 						className="p-0 font-semibold md:w-1/3 text-center duration-300 hover:scale-110"
 					>
 						I play Bass!
