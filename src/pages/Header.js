@@ -1,0 +1,39 @@
+import { Link } from "react-router-dom";
+
+function Header() {
+	return (
+		<div className="font-mono">
+			<li>
+				<Link to="/">
+					<h1 className="text-white p-2 tracking-widest font-semibold text-center text-5xl duration-300 hover:tracking-[.7em] shadow-lg">
+						OAKAR
+					</h1>
+				</Link>
+			</li>
+			<div className="flex justify-center items-center">
+				<div className="font-sans flex md:flex-row flex-col justify-evenly items-center mb-4 mt-4 w-3/4">
+					<Link
+						to="/about"
+						className="p-0 font-semibold md:w-1/3 text-center duration-300 hover:scale-110"
+					>
+						About me
+					</Link>
+					<Link
+						to="/bass"
+						className="p-0 font-semibold md:w-1/3 text-center duration-300 hover:scale-110"
+					>
+						I play Bass!
+					</Link>
+					{/* <Link
+						to="/finland"
+						className="p-0 font-semibold md:w-1/3 text-center duration-300 hover:scale-110"
+					>
+						Exchange Trip to Finland
+					</Link> */}
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export default Header;
