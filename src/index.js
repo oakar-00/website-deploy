@@ -17,7 +17,7 @@ root.render(
 				<Route path={base_url + "/"} element={<Home />} />
 				<Route path={base_url + "/about"} element={<About />} />
 				<Route path={base_url + "/bass"} element={<Bass />} />
-				<Route path="/finland" element={<Finland />} />
+				<Route path={base_url + "/finland"} element={<Finland />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>
