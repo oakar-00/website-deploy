@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/website-deploy/static/css/main.e62d62f4.css",
-    "main.js": "/website-deploy/static/js/main.c6499f27.js",
+    "main.css": "/website-deploy/static/css/main.170565f2.css",
+    "main.js": "/website-deploy/static/js/main.a7bf9187.js",
     "static/js/787.ed3a2601.chunk.js": "/website-deploy/static/js/787.ed3a2601.chunk.js",
     "static/media/play_bass_black_and_white.jpg": "/website-deploy/static/media/play_bass_black_and_white.309a41f12866bc4ad890.jpg",
+    "static/media/megadeth.png": "/website-deploy/static/media/megadeth.8c06c4fd1b047731f5b7.png",
     "static/media/metallica.jpg": "/website-deploy/static/media/metallica.04dc215acdb4a9b67bd3.jpg",
+    "static/media/rhcp.png": "/website-deploy/static/media/rhcp.5012a182f29bea37f1a6.png",
+    "static/media/gunsnroses.png": "/website-deploy/static/media/gunsnroses.77f6f967cf7fbbc44cfd.png",
     "static/media/bass_color.jpg": "/website-deploy/static/media/bass_color.4d4120797ee79c1fb972.jpg",
+    "static/media/ledzeppelin.png": "/website-deploy/static/media/ledzeppelin.96132e162df9b773d592.png",
     "static/media/bombay_burma.jpg": "/website-deploy/static/media/bombay_burma.29a41daf3eff3844506f.jpg",
     "static/media/wildfires.jpg": "/website-deploy/static/media/wildfires.5fdf3410de0ea0ae0053.jpg",
     "index.html": "/website-deploy/index.html",
-    "main.e62d62f4.css.map": "/website-deploy/static/css/main.e62d62f4.css.map",
-    "main.c6499f27.js.map": "/website-deploy/static/js/main.c6499f27.js.map",
+    "main.170565f2.css.map": "/website-deploy/static/css/main.170565f2.css.map",
+    "main.a7bf9187.js.map": "/website-deploy/static/js/main.a7bf9187.js.map",
     "787.ed3a2601.chunk.js.map": "/website-deploy/static/js/787.ed3a2601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e62d62f4.css",
-    "static/js/main.c6499f27.js"
+    "static/css/main.170565f2.css",
+    "static/js/main.a7bf9187.js"
   ]
 }
