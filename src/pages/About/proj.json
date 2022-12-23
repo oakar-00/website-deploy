@@ -1,0 +1,17 @@
+[
+	{
+		"title": "CookBook",
+		"desc": "CookBook keeps track of the items in the fridge and is designed to send a notification to the user the day before the expiry date of the ingredients.",
+		"link": "https://www.youtube.com/embed/NQz-lHYnUZg"
+	},
+	{
+		"title": "DEEZ STACKEE",
+		"desc": "Deez Stackëe is a fast-paced stacking game to test your reflexes. The goal is to align rows of LED(s) starting from the bottom level on top of each other until it reaches the highest level within a time limit of 60 seconds.",
+		"link": "https://www.youtube.com/embed/L3lK1ySj6jM"
+	},
+	{
+		"title": "GoPro?",
+		"desc": "This is a story about a friend, an amateur boxer and his story in working towards his dreams.",
+		"link": "https://www.youtube.com/embed/Rrp_A0jyN4I"
+	}
+]

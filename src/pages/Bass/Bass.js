@@ -3,14 +3,18 @@ import Footer from "../Footer";
 import "../../assets/play_bass_black_and_white.jpg";
 import Band from "./Band";
 import Gallery from "./Gallery";
+import { useEffect } from "react";
 
 function Bass() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		// <div className="min-h-screen bg-bottom bg-bass_black_and_white bg-cover">
 		<div className="min-h-screen bg-top-left bg-gradient-to-b from-black to-gray-700 bg-auto">
 			<Header />
 			<div className="flex flex-col justify-evenly item-center">
-				<div className="flex flex-col w-full justify-evenly items-center ">
+				<div className="flex flex-col w-screen justify-evenly items-center ">
 					<Band />
 
 					{/* <img
