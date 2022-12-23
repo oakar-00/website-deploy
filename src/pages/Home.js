@@ -15,7 +15,7 @@ function Home() {
 		<div className="min-h-screen bg-top-left bg-gradient-to-b from-black to-gray-700 bg-auto ">
 			<Header />
 			<div className="flex flex-col-reverse md:flex-row md:justify-evenly items-center justify-center">
-				<div className="flex flex-col md:items-end justify-center w-1/2 items-start md:m-6 ">
+				<div className="flex flex-col md:items-end justify-center w-1/2 items-start md:p-6 ">
 					<p className="font-sans text-8xl pb-2 text-white hover:scale-110 duration-500 font-semibold">
 						Hi!
 					</p>
@@ -48,7 +48,7 @@ function Home() {
 					/>
 				</div>
 			</div>
-			<div className="flex flex-row md:items-center justify-center items-start md:m-6 ">
+			<div className="flex flex-row md:items-center justify-center items-start md:p-6 ">
 				<button class=" bg-gradient-to-r from-black to-gray-900 font-semibold mt-6 py-2 px-4 border border-b-4 border-r-4 border-gray-400 rounded">
 					<Link
 						to={"/about"}
@@ -69,7 +69,7 @@ function Home() {
 					className=" object-cover h-64 w-64 rounded-full hover:scale-110 duration-300 border-4"
 					src={require("../assets/bassBnW.jpg")}
 				/>
-				<div className="flex flex-col p-12">
+				<div className="flex flex-col md:p-12">
 					<p className="text-5xl text-start ">I also play</p>
 					<p className="text-9xl text-start font-bold">BASS</p>
 					<button class="bg-gradient-to-r from-black to-gray-900 font-semibold mt-6 py-2 px-4 border border-b-4 border-r-4 border-gray-400 rounded">

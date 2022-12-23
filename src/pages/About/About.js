@@ -15,7 +15,7 @@ function About() {
 	return (
 		<div className="min-h-screen bg-top-left bg-gradient-to-b from-black to-gray-700 bg-auto">
 			<Header />
-			<div className="flex flex-col justify-evenly item-center m-6">
+			<div className="flex flex-col justify-evenly item-center p-6">
 				<div className="flex flex-col w-full justify-evenly items-center ">
 					<img
 						class="object-contain h-64 md:h-96 rounded-full border-4 hover:-translate-y-4 duration-200"
