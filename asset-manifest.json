@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-deploy/static/css/main.0e43b983.css",
-    "main.js": "/website-deploy/static/js/main.b708a00c.js",
+    "main.css": "/website-deploy/static/css/main.aa03ba86.css",
+    "main.js": "/website-deploy/static/js/main.6110b172.js",
     "static/js/787.236cee3f.chunk.js": "/website-deploy/static/js/787.236cee3f.chunk.js",
     "static/media/play_bass_black_and_white.jpg": "/website-deploy/static/media/play_bass_black_and_white.309a41f12866bc4ad890.jpg",
     "static/media/bassBnW.jpg": "/website-deploy/static/media/bassBnW.d9edd993dfa923bbedff.jpg",
@@ -11,17 +11,18 @@
     "static/media/rhcp.png": "/website-deploy/static/media/rhcp.5012a182f29bea37f1a6.png",
     "static/media/gunsnroses.png": "/website-deploy/static/media/gunsnroses.77f6f967cf7fbbc44cfd.png",
     "static/media/bass_color.jpg": "/website-deploy/static/media/bass_color.4d4120797ee79c1fb972.jpg",
+    "static/media/comSci.jpg": "/website-deploy/static/media/comSci.cec97828765e8ffb56e7.jpg",
     "static/media/ledzeppelin.png": "/website-deploy/static/media/ledzeppelin.96132e162df9b773d592.png",
     "static/media/bombay_burma.jpg": "/website-deploy/static/media/bombay_burma.29a41daf3eff3844506f.jpg",
     "static/media/wildfires.jpg": "/website-deploy/static/media/wildfires.5fdf3410de0ea0ae0053.jpg",
     "static/media/me.jpeg": "/website-deploy/static/media/me.b09e78c248594f7c78a9.jpeg",
     "index.html": "/website-deploy/index.html",
-    "main.0e43b983.css.map": "/website-deploy/static/css/main.0e43b983.css.map",
-    "main.b708a00c.js.map": "/website-deploy/static/js/main.b708a00c.js.map",
+    "main.aa03ba86.css.map": "/website-deploy/static/css/main.aa03ba86.css.map",
+    "main.6110b172.js.map": "/website-deploy/static/js/main.6110b172.js.map",
     "787.236cee3f.chunk.js.map": "/website-deploy/static/js/787.236cee3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e43b983.css",
-    "static/js/main.b708a00c.js"
+    "static/css/main.aa03ba86.css",
+    "static/js/main.6110b172.js"
   ]
 }
