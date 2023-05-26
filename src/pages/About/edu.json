@@ -2,7 +2,13 @@
 	{
 		"title": "Singapore University of Technology and Design",
 		"major": "Computer Science and Design",
-		"course": ["Machine Learning", "Computational Structures"],
-		"score": ""
+		"course": "Machine Learning, Computational Structures, Elements of Software Construction, ...",
+		"year": "2020-2024"
+	},
+	{
+		"title": "Aalto University (Finland)",
+		"major": "Exchange Studies",
+		"course": "Artificial Intelligence, Deep Learning, Full Stack Web Development, ...",
+		"year": "Spring 2023"
 	}
 ]

@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 function Footer() {
 	return (
 		<div className="flex flex-row justify-center items-center">
-			<div className="flex flex-row justify-evenly items-center mt-10 md:w-2/4 w-full  p-4 ">
+			<div className="flex flex-row justify-evenly items-center mt-0 md:w-2/4 w-full  p-4 ">
 				<a href="mailto:oakkarrr00@gmail.com">
 					{" "}
 					<AiFillMail size={70} />
