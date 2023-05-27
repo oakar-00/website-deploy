@@ -1,12 +1,10 @@
 import Header from "../../components/Header.js";
 import Footer from "../../components/Footer.js";
 import Me from "./Me.js";
-import Weather from "./Weather/Weather.js";
 import Search from "./Weather/Search.js";
+import JokeForm from "./Joke/JokeForm";
 import countriesServices from "./Weather/services/countries.js";
 import { Link } from "react-router-dom";
-import proj_details from "../proj.json";
-import Experience from "../About/Experience.js";
 import { useEffect, useState } from "react";
 import SoftwareDev from "./SoftwareDev.js";
 import { MdNightlight, MdWbSunny } from "react-icons/md";
@@ -18,6 +16,7 @@ function Home() {
 	const [darkMode, setDarkMode] = useState(false);
 	const [showMe, setShowMe] = useState(false);
 	const [showWeather, setShowWeather] = useState(false);
+	const [showJoke, setShowJoke] = useState(false);
 	const [countries, setCountries] = useState([]);
 
 	useEffect(() => {
@@ -84,6 +83,7 @@ function Home() {
 					className={darkMode ? darkSettings.button : settings.button}
 					onClick={() => {
 						setShowMe(false);
+						setShowJoke(false);
 						setShowWeather(!showWeather);
 					}}
 				>
@@ -93,6 +93,16 @@ function Home() {
 							: "Ask me about the weather"}
 					</p>
 				</button>
+				<button
+					className={darkMode ? darkSettings.button : settings.button}
+					onClick={() => {
+						setShowMe(false);
+						setShowJoke(!showJoke);
+						setShowWeather(false);
+					}}
+				>
+					<p>{showWeather ? "I'll tell you a joke" : "I'll tell you a joke"}</p>
+				</button>
 			</div>
 			{showMe ? <Me settings={darkMode ? darkSettings : settings} /> : <></>}
 			{showWeather ? (
@@ -100,6 +110,11 @@ function Home() {
 					settings={darkMode ? darkSettings : settings}
 					countries={countries}
 				/>
+			) : (
+				<></>
+			)}
+			{showJoke ? (
+				<JokeForm settings={darkMode ? darkSettings : settings} />
 			) : (
 				<></>
 			)}
