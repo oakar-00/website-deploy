@@ -2,13 +2,15 @@
 	{
 		"title": "Singapore University of Technology and Design",
 		"major": "Computer Science and Design",
-		"course": "Machine Learning, Computational Structures, Elements of Software Construction, ...",
-		"year": "2020-2024"
+		"course": "Machine Learning, Computer Vision, Information Retrieval, Computational Structures, Elements of Software Construction, Data-Driven World, ...",
+		"year": "2020-2024",
+		"image": "https://wearesutd.sutd.edu.sg/wp-content/uploads/2017/09/logo.png"
 	},
 	{
 		"title": "Aalto University (Finland)",
 		"major": "Exchange Studies",
-		"course": "Artificial Intelligence, Deep Learning, Full Stack Web Development, ...",
-		"year": "Spring 2023"
+		"course": "Artificial Intelligence, Deep Learning, Full Stack Web Development, Web Software Development, Information Visualization, Introduction to Optimization, ...",
+		"year": "Spring 2023",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aalto_University_logo.svg/360px-Aalto_University_logo.svg.png?20100711203336"
 	}
 ]
