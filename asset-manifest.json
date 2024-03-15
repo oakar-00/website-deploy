@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-deploy/static/css/main.e94787e4.css",
-    "main.js": "/website-deploy/static/js/main.140a2cc2.js",
+    "main.css": "/website-deploy/static/css/main.144d7ccc.css",
+    "main.js": "/website-deploy/static/js/main.4a7b2283.js",
     "static/js/787.236cee3f.chunk.js": "/website-deploy/static/js/787.236cee3f.chunk.js",
     "static/media/play_bass_black_and_white.jpg": "/website-deploy/static/media/play_bass_black_and_white.309a41f12866bc4ad890.jpg",
     "static/media/bassBnW.jpg": "/website-deploy/static/media/bassBnW.d9edd993dfa923bbedff.jpg",
@@ -17,12 +17,12 @@
     "static/media/wildfires.jpg": "/website-deploy/static/media/wildfires.5fdf3410de0ea0ae0053.jpg",
     "static/media/me.jpeg": "/website-deploy/static/media/me.b09e78c248594f7c78a9.jpeg",
     "index.html": "/website-deploy/index.html",
-    "main.e94787e4.css.map": "/website-deploy/static/css/main.e94787e4.css.map",
-    "main.140a2cc2.js.map": "/website-deploy/static/js/main.140a2cc2.js.map",
+    "main.144d7ccc.css.map": "/website-deploy/static/css/main.144d7ccc.css.map",
+    "main.4a7b2283.js.map": "/website-deploy/static/js/main.4a7b2283.js.map",
     "787.236cee3f.chunk.js.map": "/website-deploy/static/js/787.236cee3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e94787e4.css",
-    "static/js/main.140a2cc2.js"
+    "static/css/main.144d7ccc.css",
+    "static/js/main.4a7b2283.js"
   ]
 }
