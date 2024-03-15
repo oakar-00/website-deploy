@@ -125,6 +125,7 @@ function About() {
 													role: data.role,
 													desc: data.desc,
 													link: data.link,
+													weblink: data.weblink,
 													image: data.image,
 												}}
 											/>
@@ -139,6 +140,8 @@ function About() {
 													title: data.title,
 													desc: data.desc,
 													link: data.link,
+													weblink: data.weblink,
+													image: data.image,
 												}}
 											/>
 										))

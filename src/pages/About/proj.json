@@ -1,17 +1,33 @@
 [
 	{
+		"title": "Mr Feast WebApp (Capstone)",
+		"desc": "Mr Feast is a food delivery robot where the users can order their food online through the WebApp and the food is delivered by our delivery robot. (In collaboration with Continental)",
+		"image": "https://brandportal.continental.com/fileadmin/_processed_/4/e/csm_video_preview_b95894e9b5.jpg",
+		"weblink": "https://corriere-a33bc.web.app/"
+	},
+	{
+		"title": "Job-Course RAG System",
+		"desc": "IR Enforced Job-Course Retrieval Augmented Generation System to address inquiries regarding university courses and job opportunities in Singapore",
+		"image": "https://www.searchenginejournal.com/wp-content/uploads/2022/09/information-retrieval-2-632c7ba46ffa3-sej.png",
+		"weblink": ""
+	},
+
+	{
 		"title": "CookBook",
 		"desc": "CookBook keeps track of the items in the fridge and is designed to send a notification to the user the day before the expiry date of the ingredients.",
-		"link": "https://www.youtube.com/embed/NQz-lHYnUZg"
+		"link": "https://www.youtube.com/embed/NQz-lHYnUZg",
+		"weblink": ""
 	},
 	{
 		"title": "DEEZ STACKEE",
 		"desc": "Deez Stackëe is a fast-paced stacking game to test your reflexes. The goal is to align rows of LED(s) starting from the bottom level on top of each other until it reaches the highest level within a time limit of 60 seconds.",
-		"link": "https://www.youtube.com/embed/L3lK1ySj6jM"
+		"link": "https://www.youtube.com/embed/L3lK1ySj6jM",
+		"weblink": ""
 	},
 	{
 		"title": "GoPro?",
 		"desc": "This is a story about a friend, an amateur boxer and his story in working towards his dreams.",
-		"link": "https://www.youtube.com/embed/Rrp_A0jyN4I"
+		"link": "https://www.youtube.com/embed/Rrp_A0jyN4I",
+		"weblink": ""
 	}
 ]
