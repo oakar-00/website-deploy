@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import SoftwareDev from "./SoftwareDev.js";
 import { MdNightlight, MdWbSunny } from "react-icons/md";
+import Cats from "./Cats/Cats.js";
 
 function Home() {
 	// useEffect(() => {
@@ -17,6 +18,7 @@ function Home() {
 	const [showMe, setShowMe] = useState(false);
 	const [showWeather, setShowWeather] = useState(false);
 	const [showJoke, setShowJoke] = useState(false);
+	const [showCats, setShowCats] = useState(false);
 	const [countries, setCountries] = useState([]);
 
 	useEffect(() => {
@@ -36,6 +38,12 @@ function Home() {
 		bg: "min-h-screen bg-top-left bg-gradient-to-b from-black to-gray-700 bg-auto ",
 		button:
 			"bg-gradient-to-r from-black to-gray-900 hover:from-purple-500 hover:to-pink-500 hover:text-black font-semibold mt-6 py-2 px-4 border border-b-4 border-r-4 border-gray-500 rounded",
+	};
+	const setAllFalse = () => {
+		setShowMe(false);
+		setShowJoke(false);
+		setShowWeather(false);
+		setShowCats(false);
 	};
 	return (
 		<div className={darkMode ? darkSettings.bg : settings.bg}>
@@ -82,8 +90,7 @@ function Home() {
 				<button
 					className={darkMode ? darkSettings.button : settings.button}
 					onClick={() => {
-						setShowMe(false);
-						setShowJoke(false);
+						setAllFalse();
 						setShowWeather(!showWeather);
 					}}
 				>
@@ -96,12 +103,20 @@ function Home() {
 				<button
 					className={darkMode ? darkSettings.button : settings.button}
 					onClick={() => {
-						setShowMe(false);
+						setAllFalse();
 						setShowJoke(!showJoke);
-						setShowWeather(false);
 					}}
 				>
 					<p>{showWeather ? "I'll tell you a joke" : "I'll tell you a joke"}</p>
+				</button>
+				<button
+					className={darkMode ? darkSettings.button : settings.button}
+					onClick={() => {
+						setAllFalse();
+						setShowCats(!showCats);
+					}}
+				>
+					<p>{showWeather ? "Give me Cat Pics!" : "Give me Cat Pics!"}</p>
 				</button>
 			</div>
 			{showMe ? <Me settings={darkMode ? darkSettings : settings} /> : <></>}
@@ -115,6 +130,11 @@ function Home() {
 			)}
 			{showJoke ? (
 				<JokeForm settings={darkMode ? darkSettings : settings} />
+			) : (
+				<></>
+			)}
+			{showCats ? (
+				<Cats settings={darkMode ? darkSettings : settings} />
 			) : (
 				<></>
 			)}
