@@ -19,7 +19,7 @@ function Cats(props) {
 	return (
 		<div className="flex flex-col justify-center text-center">
 			<div className="pt-4 text-sm focus:border-fuchsia-600 focus:ring-pink-500 focus:outline-none">
-				<p className="text-lg">Enter a Http Status code</p>
+				<p className="text-md">Enter a Http Status code</p>
 				<div className="flex flex-col items-center justify-center">
 					<div className="text-lg focus:border-fuchsia-600 focus:ring-pink-500 focus:outline-none">
 						<input
@@ -29,7 +29,7 @@ function Cats(props) {
 						></input>
 					</div>
 				</div>
-				<p>and I will give you picture of a cat.</p>
+				<p className="text-xs">and I will give you picture of a cat.</p>
 			</div>
 			<div className="">
 				<button
@@ -63,6 +63,17 @@ function Cats(props) {
 					<p>Generate a Random Cat</p>
 				</button>
 			</div>
+			<p className="pt-4 text-xs">
+				Made using:{" "}
+				<a
+					className="hover:underline"
+					href="https://http.cat/"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					https://http.cat/
+				</a>
+			</p>
 		</div>
 	);
 }

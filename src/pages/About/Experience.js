@@ -31,6 +31,8 @@ function Experience(data) {
 						<a
 							href={webLink}
 							className="flex pt-4 text-blue-500 hover:underline"
+							rel="noopener noreferrer"
+							target="_blank"
 						>
 							Website Link
 						</a>

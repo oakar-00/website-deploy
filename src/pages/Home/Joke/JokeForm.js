@@ -75,7 +75,17 @@ const JokeForm = (props) => {
 				<p className="text-sm">Tell me a joke</p>
 			</button>
 			<p className="text-xs">jokes might be nsfw</p>
-
+			<p className="pt-4 text-xs">
+				Made using:{" "}
+				<a
+					className="hover:underline"
+					href="https://sv443.net/jokeapi/v2/"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					https://sv443.net/jokeapi/v2/
+				</a>
+			</p>
 			<div>
 				{joke ? (
 					<div className="m-4">

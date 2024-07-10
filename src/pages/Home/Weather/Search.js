@@ -62,6 +62,17 @@ const Search = (props) => {
 				)}
 				{selectOne ? <Country country={selectOne} /> : <></>}
 			</div>
+			<p className="pt-4 text-xs">
+				Made using:{" "}
+				<a
+					className="hover:underline"
+					href="https://openweathermap.org/api"
+					rel="noopener noreferrer"
+					target="_blank"
+				>
+					https://openweathermap.org/api
+				</a>
+			</p>
 		</div>
 	);
 };
